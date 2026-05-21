@@ -24,9 +24,9 @@ const Header = () => {
                 
                 <ul className='flex gap-3 text-white font-bold'>
                     <li><FiHeart className='text-red-600 text-2xl' /></li>
-                    <li><Link to={'/wishlist'}>Wishlist</Link><span className='bg-blue-50/30 px-2 py-1 ml-1 rounded-full '>{wishlist.length ? wishlist.length: 0}</span></li>
+                    <li><Link className='hover:text-purple-200 hover:cursor-pointer' to={'/wishlist'}>Wishlist</Link><span className='bg-blue-50/30 px-2 py-1 ml-1 rounded-full'>{wishlist.length ? wishlist.length: 0}</span></li>
                     <li><FaCartPlus className='text-green-600 text-2xl' /></li>
-                    <li><Link to={'/cart'} >Cart</Link><span className='bg-blue-50/30 px-2 py-1 ml-1 rounded-full '>{cart.length ? cart.length : 0}</span></li>
+                    <li><Link className='hover:text-purple-200 hover:cursor-pointer' to={'/cart'} >Cart</Link><span className='bg-blue-50/30 px-2 py-1 ml-1 rounded-full '>{cart.length ? cart.length : 0}</span></li>
                 </ul>
             </nav>
         </div>

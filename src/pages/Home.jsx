@@ -43,7 +43,7 @@ const Home = () => {
                         </div>
                         <h3>{eachProduct.title}</h3>
                         
-                        <Link className='bg-purple-600 text-white p-2' to={`/singleProduct/${eachProduct.id}`} >View More...</Link>
+                        <Link className='bg-purple-600 hover:bg-purple-200 hover:text-black hover:cursor-pointer text-white p-2' to={`/singleProduct/${eachProduct.id}`} >View More...</Link>
                     </div>
                 ))
             }

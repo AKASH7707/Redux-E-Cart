@@ -24,8 +24,8 @@ const SingleProduct = () => {
             <div >
                 <button onClick={()=>{
                     dispatch(addToWishList(single_products))
-                }} className='bg-blue-600 text-white p-2 mr-25'>ADD TO WISHLIST</button>
-                <button onClick={() => dispatch(addToCart(single_products))} className='bg-green-600 text-white p-2'>ADD TO CART</button>
+                }} className='bg-blue-600 text-white p-2 mr-25 hover:bg-blue-900 hover:cursor-pointer'>ADD TO WISHLIST</button>
+                <button onClick={() => dispatch(addToCart(single_products))} className='bg-green-600 text-white p-2 hover:bg-green-900 hover:cursor-pointer'>ADD TO CART</button>
             </div>
         </div> 
         <div className='p-3 grid gap-3'>

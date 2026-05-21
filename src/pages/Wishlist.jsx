@@ -22,8 +22,8 @@ const Wishlist = () => {
               </div>
               <h3>{eachProduct.title}</h3>
               <div className='flex justify-between'>
-                <button onClick={() => dispatch(addToCart(eachProduct))} className='bg-green-600 text-white p-2' >Add To Cart</button>
-                <button onClick={() => dispatch(removeFromWishList(eachProduct.id))} className='bg-red-600 text-white p-2' >Remove</button>
+                <button onClick={() => dispatch(addToCart(eachProduct))} className='bg-green-600 text-white p-2 hover:bg-green-700 hover:cursor-pointer' >Add To Cart</button>
+                <button onClick={() => dispatch(removeFromWishList(eachProduct.id))} className='bg-red-600 text-white p-2 hover:bg-red-700 hover:cursor-pointer' >Remove</button>
               </div>
 
           </div>
